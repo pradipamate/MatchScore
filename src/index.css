@@ -1,0 +1,38 @@
+body{
+    padding: 5px;
+}
+.row {
+    clear: both;
+}
+
+.country {
+    float: left;
+    width: 250px;
+}
+
+.country form {
+    float: left;
+}
+
+.country .country-input {
+    width: 100px;
+}
+
+.average {
+    float: left;
+    width: 250px;
+}
+
+.horiz-bar {
+    float: left;
+    display: inline-block;
+    background-color: blue;
+    border-color: black;
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+    .average,.country {width:200px}
+}
+@media (max-width: 600px){
+ .average,.country {width:300px;}
+}
